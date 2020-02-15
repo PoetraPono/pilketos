@@ -98,7 +98,25 @@
 				<?php echo $this->session->flashdata('resetfailed'); ?>
 			</div>
 			<?php } ?>
-                <a href="<?php echo base_url('index.php/admin/resetdata'); ?>"><button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-remove"></span> Reset Data Pemilihan</button></a>
+				<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#reset"><span class="glyphicon glyphicon-remove"></span> Reset Data Pemilihan</button>
+				<div id="reset" class="modal fade" role="dialog">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-header">
+								<button type="button" class="close" data-dismiss="modal">&times;</button>
+								<b><span class="glyphicon glyphicon-warning"></span> Peringatan</b>
+							</div>
+							<div class="modal-body">
+								<p>Fitur ini akan menghapus semua data Kecuali Indentitas Sekolah dan Data Kelas</p>
+								<p>Apakah anda yakin ingin Me-Reset semua data? </p>
+							</div>
+							<div class="modal-footer">
+								<a href="<?php echo base_url('index.php/admin/resetdata'); ?>"><button type="button" class="btn btn-success">Ya</button></a>
+								<button type="button" class="btn btn-danger" data-dismiss="modal">Tidak</button>
+							</div>
+						</div>
+					</div>
+				</div>
              </div>
         </div>
       </div>

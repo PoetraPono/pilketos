@@ -23,7 +23,10 @@
 			);
 			echo form_open_multipart('admin/simpandpt', $form_attribute);
 		?>
-		<div style="width: 400px;">
+		<div class="row">
+		<div class="col-lg-6">
+			<h4>Tambah Data Satu/Satu</h4>
+			<hr/>
 			<label class="label-control">NISN</label>
 			<?php
 				$form_attribute = array(
@@ -61,6 +64,16 @@
 		<?php 
 			echo form_close();
 		?>
+		<div class="col-lg-6 text-center">
+			<h4>Tambah Data Massal</h4>
+			<hr/> <br/><br/><br/>
+			<button class="btn btn-default" style="width: 100%;"><span class="glyphicon glyphicon-cloud-download"></span> Download Format Excel</button> <br/> <br/>
+			<form action="" method="post">
+				<input type="file" class="form-control"/>
+				<button type="submit" class="btn btn-default" style="width: 100%;"><span class="glyphicon glyphicon-cloud-upload"></span> Upload Data</button>
+			</form>
+		</div>
+		</div>
 		</div>
 	</div>
 </div>

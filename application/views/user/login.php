@@ -1,6 +1,5 @@
+<body style="background-image:url('<?php echo base_url(); ?>asset/img/background.jpg'); background-size: 100%; width: 100%; background-repeat: no-repeat">
 <div class="ch-container">
-    <div class="row">
-        
     <div class="row">
         <div class="col-md-12 center login-header">
             <h2>Selamat Datang di E-Pilketos</h2>
@@ -9,7 +8,7 @@
     </div><!--/row-->
 
     <div class="row">
-        <div class="well col-md-5 center login-box">
+        <div class="col-md-5 center login-box">
             <div class="alert alert-info">
                 Gunakan NISN anda Sebagai Username dan Password
             </div>
@@ -66,7 +65,7 @@
                     <div class="clearfix"></div>
 
                     <p class="center col-md-5">
-                        <button type="submit" class="btn btn-primary">Login</button>
+                        <button type="submit" class="btn btn-primary btn-lg"><span class="glyphicon glyphicon-log-in"></span> Login</button>
                     </p>
                 </fieldset>
             </form>

@@ -477,7 +477,7 @@ Class Admin extends CI_Controller {
 		$pdf->Cell(115,6, '',0,0, 'L');
 		$pdf->SetFont('Arial','',12);
 		$pdf->Cell(70,6, 'NIP: '.$loaddata['nip'],0,1, 'L');
-		$pdf->Output();
+		$pdf->Output(); 
 		ob_end_flush(); 
 	}
 	public function laporan(){
@@ -579,4 +579,4 @@ Class Admin extends CI_Controller {
 		ob_end_flush(); 
 	}
 } 
- ?>
+ ?> 

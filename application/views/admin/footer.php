@@ -31,15 +31,14 @@
     </div>
 
     <footer class="row">
-        <p class="col-md-6 col-sm-6 col-xs-6 copyright">&copy; <a href="https://www.gadink47.com" target="_blank">Muhammad Rompegading</a> <?php echo date('Y') ?></p>
-
-        <p class="col-md-6 col-sm-6 col-xs-6 powered-by">Powered by: 
+        <p class="col-md-4 col-sm-6 col-xs-6 copyright">&copy; <?php echo date('Y') ?><a href="https://www.gadink47.com" target="_blank"> Muhammad Rompegading</a></p>
+		<p class="col-md-4 col-sm-6 col-xs-6 copyright text-center"><b><a href="https://github.com/fpls-software/pilketos" target="_blank">Pilketos v.0.1.0-Beta</a></b></p>
+        <p class="col-md-4 col-sm-6 col-xs-6 powered-by">Powered by: 
 		<a href="#"><?php echo $load['nm_sekolah']; ?></a></p>
     </footer>
 <?php } ?>
-
-<script src="<?php echo base_url(); ?>asset/vendor/jquery/jquery.js"></script>
-<script src="<?php echo base_url(); ?>asset/vendor/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="<?php echo base_url(); ?>asset/vendor/jquery/jquery-3.4.1.js"></script>
+<script src="<?php echo base_url(); ?>asset/vendor/jquery/bootstrap-3.4.1.js"></script>
 <script src="<?php echo base_url(); ?>asset/vendor/datatables/datatables.min.js"></script>
 <script src="<?php echo base_url(); ?>asset/vendor/responsive-tables/responsive-tables.js"></script>
 <script>

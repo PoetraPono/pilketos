@@ -1,7 +1,7 @@
 <div class="box">
 	<div class="box-inner">
 	<div class="box-header well">
-		<h2>Tambah Calon Ketua Osis</h2>
+		<h2>Tambah Kandidat Ketua Osis</h2>
 	</div>
 	<div class="box-content">
 		<?php if($this->session->flashdata('info')) { ?>
@@ -33,7 +33,7 @@
 				);
 				echo form_input($form_attribute);
 			?>
-			<label class="label-control"> No Pemilihan</label>
+			<label class="label-control"> No Kandidat</label>
 			<?php 
 				$form_attribute	= array (
 					'type'		=> 'text',
@@ -42,7 +42,7 @@
 				);
 				echo form_input($form_attribute);
 			?>
-			<label class="label-control"> Nama Calon</label>
+			<label class="label-control"> Nama Kandidat</label>
 			<?php 
 				$form_attribute	= array (
 					'type'		=> 'text',
